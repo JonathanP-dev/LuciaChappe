@@ -32,12 +32,39 @@
     gap: 1rem;
 }
 
+.header .navbar .header-container {
+    justify-content: space-between;
+    /* gap: 5rem; */
+    /* PARA DESKTOP O TABLET */
+}
+
+.header .navbar .header-container .collapse {
+    width: 100%;
+    justify-content: space-between;
+    right: 0;
+    /* gap: 2rem; */
+}
+
+.header .navbar .header-container .collapse .navbar-nav {
+    /* width: 60%; */
+    /* position: absolute; */
+    /* justify-content: space-between; */
+    /* right: 2rem; */
+    /* PARA DESKTOP O TABLET*/
+    justify-content: center;
+    width: 100%;
+}
+
+.navbar {
+    width: 100%;
+}
+
 .header img {
     height: 70px;
 }
 
 .navList {
-    list-style: none;
+    /* list-style: none; */
     display: flex;
     flex-direction: column;
     place-content: center;
