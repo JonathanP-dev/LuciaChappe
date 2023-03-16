@@ -89,6 +89,7 @@
 main {
     background-color: #FCF9BE;
     font-family: 'Inria Serif', serif;
+    min-height: 900px;
 }
 
 .descriptions {
