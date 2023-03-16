@@ -89,7 +89,6 @@
 main {
     background-color: #FCF9BE;
     font-family: 'Inria Serif', serif;
-    min-height: 900px;
 }
 
 .descriptions {
@@ -355,6 +354,7 @@ h1 {
         "item4"
     ;
     gap: 2rem;
+    min-height: 550px;
 }
 
 .upCContainer:first-child {
