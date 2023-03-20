@@ -369,7 +369,7 @@ h1 {
     margin: auto;
     padding: 1%;
     gap: 2rem;
-    min-height: 550px;
+    min-height: 500px;
 }
 
 .videoOptions {
@@ -386,6 +386,10 @@ h1 {
 }
 
 @media (min-width: 768px) {
+    .videoContainer {
+        min-height: 600px;
+    }
+
     .videoOptions {
         width: 25%;
         padding: .5rem;
@@ -405,9 +409,13 @@ h1 {
 
 @media (min-width: 992px) {
     .video {
-        width: 977px;
-        height: 550px;
+        width: 888px;
+        height: 500px;
         /* margin: 10rem 0 30rem 0; */
+    }
+
+    .videoContainer {
+        min-height: 750px;
     }
 }
 
