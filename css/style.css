@@ -411,7 +411,6 @@ h1 {
     .video {
         width: 888px;
         height: 500px;
-        /* margin: 10rem 0 30rem 0; */
     }
 
     .videoContainer {
@@ -628,7 +627,6 @@ h1 {
     }
 
     .contactFormContainer {
-        /* width: 100%; */
         background-image: none;
         background-color: rgba(232, 243, 214, .54);
     }
