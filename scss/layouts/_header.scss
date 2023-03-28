@@ -3,10 +3,7 @@
 .header {
   background: $colorHeader;
   font-family: robot;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  @include flexColCenter;
   gap: 1rem;
   padding: .5rem 2rem;
   min-height: 13vh;

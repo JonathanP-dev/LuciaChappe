@@ -23,11 +23,8 @@
   .upCDiv {
     width: 80%;
     border-bottom: 1px solid black;
-    display: flex;
-    flex-direction: column;
+    @include flexColCenter;
     gap: 2rem;
-    align-items: center;
-    justify-self: center;
     padding-bottom: 1.5rem;
 
     h2 {

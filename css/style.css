@@ -22,8 +22,8 @@
   font-family: robot;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   gap: 1rem;
   padding: .5rem 2rem;
   min-height: 13vh; }
@@ -188,7 +188,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-self: center;
+    justify-content: center;
     border-bottom: 1px solid black;
     text-align: center; }
     .participationsContainer .participations img {
@@ -298,9 +298,9 @@ main {
     border-bottom: 1px solid black;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
     align-items: center;
-    justify-self: center;
+    justify-content: center;
+    gap: 2rem;
     padding-bottom: 1.5rem; }
     .upCContainer .upCDiv h2 {
       font-size: 1.7rem;
@@ -460,8 +460,8 @@ main {
   font-family: 'Inria Serif', serif;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   gap: 1rem;
   padding: 1rem 0;
   min-height: 7vh; }
