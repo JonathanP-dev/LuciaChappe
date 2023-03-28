@@ -1,0 +1,21 @@
+/* *** MAIN *** */
+
+main {
+  background-color: $colorMain;
+  font-family: 'Inria Serif', serif;
+  min-height: 80vh;
+}
+
+.descriptions {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 400;
+}
+
+@import "./pages/index.scss";
+@import "./pages/participations.scss";
+@import "./pages/photos.scss";
+@import "./pages/videos.scss";
+@import "./pages/upcomingPerformances";
+@import "./pages/contacto.scss";

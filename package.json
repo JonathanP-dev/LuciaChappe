@@ -1,0 +1,35 @@
+{
+  "name": "lucia-chappe",
+  "version": "1.0.1",
+  "description": "Lucia Chappe is an uruguayan singer. \r I decided work in her ownpage in Coderhouse's development web course.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss ./scss/style.scss ./css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonathanP-dev/LuciaChappe.git"
+  },
+  "keywords": [
+    "Cantante",
+    "Singer",
+    "Musica",
+    "Music",
+    "Folklore",
+    "Folclore",
+    "Uruguay",
+    "Uruguaya"
+  ],
+  "author": "Jonathan Pereira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonathanP-dev/LuciaChappe/issues"
+  },
+  "homepage": "https://github.com/JonathanP-dev/LuciaChappe#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.22"
+  }
+}

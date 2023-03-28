@@ -1,0 +1,134 @@
+/* INDEX */
+
+.principalContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .photo {
+    width: 21rem;
+    height: 21rem;
+    background-image: url('../assets/media/fotoPrincipal.jpeg');
+    background-size: contain;
+    box-shadow: 10px 10px 20px black;
+    border-radius: 50%;
+    order: 2;
+  }
+
+  h1 {
+    text-align: center;
+    margin: 1.5rem;
+    font-weight: 700;
+    font-size: 2rem;
+    text-transform: uppercase;
+    order: 1;
+  }
+
+  .luciaDescription {
+    width: 90%;
+    margin-top: 2rem;
+    color: $colorLetras;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    order: 3;
+  }
+}
+
+@media (min-width: 600px) {
+  .principalContainer .photo {
+    width: 35rem;
+    height: 35rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .principalContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .photo {
+      box-shadow: 10px 10px 40px black;
+      width: 45%;
+      height: 70rem;
+      background: url('../assets/media/fotoPrincipalTablet.jpeg');
+      background-size: cover;
+      margin-bottom: 2rem;
+    }
+
+    h1 {
+      text-align: center;
+      margin: 1.5rem;
+      font-weight: 700;
+      font-size: 2.5rem;
+      text-transform: uppercase;
+      width: 100%;
+    }
+
+    .luciaDescription {
+      width: 55%;
+      align-self: self-start;
+      padding-top: 2.5rem;
+
+      .descriptions {
+        margin: 0 2rem 1.5rem 2.5rem;
+        color: $colorLetras;
+        font-size: 2rem;
+      }
+    }
+  }
+}
+
+@media (min-width: 1000px) {
+  .principalContainer {
+    align-items: flex-start;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  .principalContainer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas:
+      "photo photo titulo titulo titulo"
+      "photo photo texto texto texto"
+      "photo photo texto texto texto"
+      "photo photo texto texto texto"
+      "photo photo texto texto texto"
+
+    ;
+
+    .photo {
+      border-radius: 0;
+      order: 1;
+      grid-area: photo;
+      width: auto;
+      height: 850px;
+      margin-bottom: 0;
+    }
+
+    h1 {
+      font-size: 3.5rem;
+      grid-area: titulo;
+      width: auto;
+      order: 2;
+      align-self: center;
+      justify-self: center;
+    }
+
+    .luciaDescription {
+      grid-area: texto;
+      width: 100%;
+      order: 2;
+
+      .descriptions {
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+        margin-left: 3.5rem;
+      }
+    }
+  }
+}

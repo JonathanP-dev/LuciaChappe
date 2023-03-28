@@ -1,0 +1,44 @@
+/* *** FOOTER *** */
+
+.footer {
+  background-color: $colorFooter;
+  font-family: 'Inria Serif', serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 0;
+  min-height: 7vh;
+
+  h2 {
+    margin-bottom: 0;
+  }
+
+  .socialNetworks {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+
+    li a img {
+      width: 3.5rem;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .footer {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+
+    .socialNetworks li {
+      display: inline-block;
+      list-style: none;
+      padding-left: .7rem;
+    }
+  }
+}

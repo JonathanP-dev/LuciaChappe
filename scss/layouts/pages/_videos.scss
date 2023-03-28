@@ -1,0 +1,55 @@
+/* VIDEOS */
+
+
+.videoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  padding: 1%;
+  gap: 2rem;
+
+  .videoOptions {
+    width: 50%;
+    height: fit-content;
+    text-align: center;
+  }
+
+  /* width="1120" height="630"  */
+  .video {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+  }
+}
+
+@media (min-width: 768px) {
+
+  .videoContainer {
+    .videoOptions {
+      width: 25%;
+      padding: .5rem;
+      margin-top: 2rem;
+    }
+
+    .video {
+      width: 622px;
+      height: 350px;
+
+      iframe {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .videoContainer {
+    .video {
+      width: 888px;
+      height: 500px;
+    }
+  }
+}
