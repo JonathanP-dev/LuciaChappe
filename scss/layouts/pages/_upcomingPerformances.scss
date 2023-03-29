@@ -21,15 +21,20 @@
   }
 
   .upCDiv {
-    width: 80%;
+    width: 90%;
     border-bottom: 1px solid black;
     @include flexColCenter;
     gap: 2rem;
     padding-bottom: 1.5rem;
+    justify-self: center;
 
     h2 {
       font-size: 1.7rem;
       font-weight: 700;
+    }
+
+    p {
+      font-size: 1.5rem;
     }
   }
 
