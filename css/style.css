@@ -22,8 +22,8 @@
   font-family: robot;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   gap: 1rem;
   padding: .5rem 2rem;
   min-height: 13vh; }
@@ -81,6 +81,7 @@ main {
 .principalContainer {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
   align-items: center; }
   .principalContainer .photo {
     width: 21rem;
@@ -184,8 +185,8 @@ main {
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     border-bottom: 1px solid black;
     text-align: center; }
     .participationsContainer .participations img {
@@ -220,6 +221,7 @@ main {
 .galery {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
   gap: 2rem; }
   .galery:first-child {
@@ -299,8 +301,8 @@ main {
     border-bottom: 1px solid black;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     gap: 2rem;
     padding-bottom: 1.5rem;
     justify-self: center; }
@@ -464,8 +466,8 @@ main {
   font-family: 'Inria Serif', serif;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   gap: 1rem;
   padding: 1rem 0;
   min-height: 7vh; }
@@ -482,6 +484,7 @@ main {
 
 @media (min-width: 768px) {
   .footer {
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;

@@ -9,7 +9,7 @@
 
   .participations {
     width: 100%;
-    @include flexColCenter;
+    @include flex(column, center, center);
     border-bottom: 1px solid black;
     text-align: center;
 

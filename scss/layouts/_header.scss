@@ -3,7 +3,7 @@
 .header {
   background: $colorHeader;
   font-family: robot;
-  @include flexColCenter;
+  @include flex(column, center, center);
   gap: 1rem;
   padding: .5rem 2rem;
   min-height: 13vh;

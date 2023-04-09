@@ -23,7 +23,7 @@
   .upCDiv {
     width: 90%;
     border-bottom: 1px solid black;
-    @include flexColCenter;
+    @include flex(column, center, center);
     gap: 2rem;
     padding-bottom: 1.5rem;
     justify-self: center;

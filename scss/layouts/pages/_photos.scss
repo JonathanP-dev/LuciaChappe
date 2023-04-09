@@ -1,7 +1,5 @@
 .galery {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  @include flex(column, flex-start, center);
   gap: 2rem;
 
   &:first-child {
