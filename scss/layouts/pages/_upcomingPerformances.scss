@@ -20,13 +20,17 @@
     padding-bottom: 2rem;
   }
 
-  .upCDiv {
+  .newPerformance {
     width: 90%;
     border-bottom: 1px solid black;
     @include flex(column, center, center);
     gap: 2rem;
     padding-bottom: 1.5rem;
     justify-self: center;
+  }
+
+  .upCDiv {
+    @extend .newPerformance;
 
     h2 {
       font-size: 1.7rem;
@@ -35,6 +39,9 @@
 
     p {
       font-size: 1.5rem;
+      width: 100%;
+      text-align: center;
+      justify-self: center;
     }
   }
 
@@ -96,7 +103,7 @@
 
     .upCDiv {
       width: 100%;
-      justify-content: center;
+      justify-content: flex-start;
       padding: 0 7rem 0 7rem;
     }
 

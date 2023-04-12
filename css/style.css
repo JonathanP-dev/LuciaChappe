@@ -290,7 +290,7 @@ main {
     padding-top: 2rem; }
   .upCContainer :last-child {
     padding-bottom: 2rem; }
-  .upCContainer .upCDiv {
+  .upCContainer .newPerformance, .upCContainer .upCDiv {
     width: 90%;
     border-bottom: 1px solid black;
     display: flex;
@@ -300,11 +300,14 @@ main {
     gap: 2rem;
     padding-bottom: 1.5rem;
     justify-self: center; }
-    .upCContainer .upCDiv h2 {
-      font-size: 1.7rem;
-      font-weight: 700; }
-    .upCContainer .upCDiv p {
-      font-size: 1.5rem; }
+  .upCContainer .upCDiv h2 {
+    font-size: 1.7rem;
+    font-weight: 700; }
+  .upCContainer .upCDiv p {
+    font-size: 1.5rem;
+    width: 100%;
+    text-align: center;
+    justify-self: center; }
   .upCContainer .upCOne {
     grid: item1; }
   .upCContainer .upCTwo {
@@ -338,7 +341,7 @@ main {
       padding-bottom: 0; }
     .upCContainer .upCDiv {
       width: 100%;
-      justify-content: center;
+      justify-content: flex-start;
       padding: 0 7rem 0 7rem; }
     .upCContainer .upCOne {
       margin-top: 7rem;
@@ -438,9 +441,9 @@ main {
   .contactPhotoContainer--socialNetworks {
     display: flex;
     list-style: none;
-    gap: 3rem;
     padding: 0;
-    margin: 0; }
+    margin: 0;
+    gap: 3rem; }
     .contactPhotoContainer--socialNetworks li a img {
       width: 5rem; }
   .footerContact div .footerContact--socialNetworks {
