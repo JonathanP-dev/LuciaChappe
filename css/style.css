@@ -193,7 +193,7 @@ main {
         font-size: 1.7rem;
         font-weight: 700;
         margin-bottom: 2rem; }
-      .participationsContainer .participations .descriptions p {
+      .participationsContainer .participations .descriptions p, .participationsContainer .participations .descriptions .upCContainer .upCDiv strong, .upCContainer .upCDiv .participationsContainer .participations .descriptions strong {
         font-size: 1.5rem; }
 
 @media (min-width: 768px) {
@@ -209,7 +209,7 @@ main {
         order: 2; }
         .participationsContainer .participations .descriptions h2 {
           font-size: 2.7rem; }
-        .participationsContainer .participations .descriptions p {
+        .participationsContainer .participations .descriptions p, .participationsContainer .participations .descriptions .upCContainer .upCDiv strong, .upCContainer .upCDiv .participationsContainer .participations .descriptions strong {
           font-size: 1.5rem; } }
 
 .galery {
@@ -303,7 +303,7 @@ main {
   .upCContainer .upCDiv h2 {
     font-size: 1.7rem;
     font-weight: 700; }
-  .upCContainer .upCDiv p {
+  .upCContainer .upCDiv p, .upCContainer .upCDiv strong {
     font-size: 1.5rem;
     width: 100%;
     text-align: center;
@@ -322,7 +322,7 @@ main {
     grid-template-rows: repeat(4, minmax(150px, 1fr)); }
     .upCContainer .upCDiv h2 {
       font-size: 2.7rem; }
-    .upCContainer .upCDiv p {
+    .upCContainer .upCDiv p, .upCContainer .upCDiv strong {
       font-size: 1.7rem; } }
 
 @media (min-width: 992px) {
