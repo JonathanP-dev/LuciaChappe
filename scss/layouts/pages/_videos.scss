@@ -8,7 +8,7 @@
   width: 80%;
   margin: auto;
   padding: 1%;
-  gap: 2rem;
+  gap: 3rem;
 
   .videoOptions {
     width: 50%;
@@ -22,11 +22,30 @@
     justify-content: center;
     height: 200px;
   }
+
+  .videoData {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+
+    strong {
+      font-size: 20px;
+      text-transform: uppercase;
+    }
+
+    span {
+      font-size: 12px;
+    }
+  }
 }
 
 @media (min-width: 768px) {
 
   .videoContainer {
+    gap: 2rem;
+
     .videoOptions {
       width: 25%;
       padding: .5rem;
@@ -40,6 +59,23 @@
       iframe {
         width: 100%;
         height: 100%;
+      }
+    }
+
+    .videoData {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      gap: 1rem;
+
+      strong {
+        font-size: 24px;
+        text-transform: uppercase;
+      }
+
+      span {
+        font-size: 16px;
       }
     }
   }
